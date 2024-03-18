@@ -1,7 +1,7 @@
 module "s3_bucket1" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "spacelift-test-s3-bucket"
+  bucket = "spacelift-test-s3-bucket-niou"
   acl    = "private"
 }
 
